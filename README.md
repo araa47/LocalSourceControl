@@ -9,24 +9,25 @@ Run the following scripts ............
 
 ### First Configure a New Repository on any Local Server:
 
-1) On the server create a directory for all git projects to be stored "mkdir projectdirectory"
-2) cd into the directory "cd projectdirectory"
-3) Initialize git by typing "git init"
+1) On the server create a directory for all git projects to be stored `mkdir projectdirectory`
+2) cd into the directory `cd projectdirectory`
+3) Initialize git by typing `git init`
+
 
 
 ### Create SSH Keys for passwordless login:
 
 1) Type ssh-keygen -t rsa
-2) Type cat ~/.ssh/id_rsa.pub | ssh speech@192.168.100.125 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+2) Type `cat ~/.ssh/id_rsa.pub | ssh speech@192.168.100.125 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"`
 
 ### Initial Setup:
 
 1) First go to a new directory on your computer which will be your working directory
-2) Run the following command: git clone speech@192.168.100.125:/home/speech/git/projects.git
-3) Cd into the Projects Directory
-4) Create a new Branch and Name it something that describes the changes you are making for example "Fixed VAD" : git branch $branchname$
-5) Move to your branch by typing git checkout $branchname$
-6) Make sure you are in the new branch by typing git status
+2) Run the following command: `git clone speech@192.168.100.125:/home/speech/git/projects.git`
+3) Cd into the Projects Directory `cd Projectdirecotry`
+4) Create a new Branch and Name it something that describes the changes you are making for example "Fixed VAD" : `git branch $branchname$`
+5) Move to your branch by typing `git checkout $branchname$`
+6) Make sure you are in the new branch by typing `git status`
 7) Once you know you are in the new branch, start changing the files there normally, and use this directory for all the work
 8) Once you have finished making changes , type git add . for these changes to be updated.
 9) Check the differences between master branch and your branch by typing git diff , make sure the changes have been reflected here
