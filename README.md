@@ -9,9 +9,9 @@ Run the following scripts ............
 
 ### First Configure a New Repository on any Local Server:
 
-1) On the server create a directory for all git projects to be stored 'mkdir projectdirectory'
-2) cd into the directory 'cd projectdirectory'
-3) Initialize git by typing 'git init'
+1) On the server create a directory for all git projects to be stored "mkdir projectdirectory"
+2) cd into the directory "cd projectdirectory"
+3) Initialize git by typing "git init"
 
 
 ### Create SSH Keys for passwordless login:
