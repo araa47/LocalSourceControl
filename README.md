@@ -9,10 +9,14 @@ Run the following scripts ............
 
 ### First Configure a New Repository on any Local Server:
 
-1) Lorem Ipsum
-2) Lorem Ipsum
-3) Lorem Ipsum 
-
+1) On the server create a directory for all git projects to be stored, e.g. git
+mkdir git
+cd git
+2) Create a folder for your project, e.g. project
+mkdir project
+cd project
+3) Initialize git
+git init
 
 ### Create SSH Keys for passwordless login:
 
