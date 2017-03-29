@@ -24,7 +24,7 @@ Run the following scripts ............
 ### Initial Setup:
 
 1) First go to a new directory on your computer which will be your working directory
-2) Run the following command: `git clone speech@192.168.100.125:/home/speech/git/projects.git`
+2) Run the following command: `git clone user@serverip:/home/speech/git/projects.git`
 3) Cd into the Projects Directory `cd Projectdirecotry`
 4) Create a new Branch and Name it something that describes the changes you are making for example "Fixed VAD" : `git branch $branchname$`
 5) Move to your branch by typing `git checkout $branchname$`
