@@ -1,21 +1,25 @@
 # LocalSourceControl
 Simple deployment of a private git solution for professional teams
 
-## First Configure a New Repository on any Local Server:
+## Automatic Method 
+
+Run the following scripts ............
+
+## Manual Method 
+
+### First Configure a New Repository on any Local Server:
+
+1) Lorem Ipsum
+2) Lorem Ipsum
+3) Lorem Ipsum 
 
 
-
-
-
-
-
-
-## Create SSH Keys for passwordless login:
+### Create SSH Keys for passwordless login:
 
 1) Type ssh-keygen -t rsa
 2) Type cat ~/.ssh/id_rsa.pub | ssh speech@192.168.100.125 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 
-## Initial Setup:
+### Initial Setup:
 
 1) First go to a new directory on your computer which will be your working directory
 2) Run the following command: git clone speech@192.168.100.125:/home/speech/git/projects.git
@@ -31,7 +35,7 @@ Simple deployment of a private git solution for professional teams
 12) Wait for admin to accept your commit and merge your branch to the master.
 13) Have fun!
 
-## Daily Usage:
+### Daily Usage:
 
 1) First, fetch all the changes made while others were working on the project by typing git pull
 2) Next start a new branch for whatever changes you will be making for example SRTfix , git branch branchname
