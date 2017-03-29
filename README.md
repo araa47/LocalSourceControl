@@ -18,7 +18,8 @@ Run the following scripts ............
 ### Create SSH Keys for passwordless login:
 
 1) Type `ssh-keygen -t rsa`
-2) Type `cat ~/.ssh/id_rsa.pub | ssh speech@192.168.100.125 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"`
+2) In the following command, replace serverip, with the servers actually ip address and user with the username used to log into the server
+ `cat ~/.ssh/id_rsa.pub | ssh user@serverip "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"`
 
 ### Initial Setup:
 
