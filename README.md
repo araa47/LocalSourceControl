@@ -7,7 +7,17 @@ Run the following scripts ............
 
 ## Manual Method 
 
-### First Configure a New Repository on any Local Server:
+### Install git on the server and your local machine 
+
+#### MAC 
+
+`brew install git`
+
+#### Linux 
+
+`sudo apt-get install git-all`
+
+### Configure a New Repository on any Local Server:
 
 1) On the server create a directory for all git projects to be stored `mkdir projectdirectory`
 2) cd into the directory `cd projectdirectory`
